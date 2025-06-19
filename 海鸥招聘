@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>海鸥</title>
+  <!-- Open Graph Meta Tags for Link Previews -->
+  <meta property="og:title" content="海鸥招聘 - 高薪直招">
+  <meta property="og:description" content="精准岗位匹配 | 高薪职位速招。加入海鸥招聘部，开启您的职业新篇章！">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-landing-page.netlify.app">
+  <meta property="og:image" content="https://your-landing-page.netlify.app/og-image.jpg">
+  <!-- End Open Graph Meta Tags -->
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babel-standalone@6.26.0/babel.min.js"></script>
+  <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const App = () => {
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("感谢您的提交！我们会尽快联系您。");
+      };
+
+      return (
+        <div className="min-h-screen bg-gray-100">
+          {/* 导航栏 */}
+          <nav className="bg-white shadow-md">
+            <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+              <h1 className="text-2xl font-bold text-blue-600">海鸥招聘部</h1>
+              <div className="space-x-4">
+                <a href="#features" className="text-gray-600 hover:text-blue-600">功能</a>
+                <a href="#contact" className="text-gray-600 hover:text-blue-600">联系我们</a>
+              </div>
+            </div>
+          </nav>
+
+          {/* 英雄区 */}
+          <section className="bg-blue-600 text-white py-20 text-center">
+            <div className="max-w-3xl mx-auto px-4">
+              <h2 className="text-4xl font-bold mb-4">海鸥官网直招-人事部</h2>
+              <p className="text-lg mb-6">精准岗位匹配 | 高薪职位速招</p>
+              <button className="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full hover:bg-gray-200">
+                <a
+                  href="https://t.me/xiaojiang1818"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Telegram
+                </a>
+              </button>
+              <p className="mt-4">
+                <a
+                  href="https://t.me/xiaojiang1818"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white underline hover:text-gray-200"
+                >
+                  立即投递简历
+                </a>
+              </p>
+            </div>
+          </section>
+
+          {/* 功能区 */}
+          <section id="features" className="py-16">
+            <div className="max-w-7xl mx-auto px-4">
+              <h3 className="text-3xl font-bold text-center mb-12">招聘岗位</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">招聘主管（高薪诚聘）</h4>
+                  <p className="text-gray-600">★ 有职能/业务线招聘经验
+★ 带过招聘团队者优先
+★ 有创新招聘方法论者
+（面议 9小时/天 月休4天）</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">推广专员（高提成）</h4>
+                  <p className="text-gray-600">★提成上不封顶，多劳多得
+                  ★优秀者可晋升渠道管理岗位
+                  （1K-12K 12小时/天 月休2天）</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">直播推广专员</h4>
+                  <p className="text-gray-600">★ 行业领先的提成比例
+★ 优质流量资源扶持
+（15K+高额提成 12小时/天 月休2天）</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">推广储备干部</h4>
+                  <p className="text-gray-600">★管理技能专业培训
+★ 优质渠道资源支持
+（15K+高额提成 12小时/天 月休2天）</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">自媒体运营专家</h4>
+                  <p className="text-gray-600">★ 制定并执行多平台自媒体运营策略
+★ 深度分析用户行为数据，优化投放效果
+★ 整合厂商资源，开展精准推广
+★ 主导账号内容策划与多平台同步运营
+★ 管理外部内容团队，把控内容质量
+（薪资面议 9小时/天 月休4天）</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <h4 className="text-xl font-semibold mb-2">全流程AI应用设计师</h4>
+                  <p className="text-gray-600">★ 体育新媒体深度用户
+★ 熟悉国内外主流社交平台
+★有爆款内容创作经历
+★ 掌握PS/PR等创意工具
+（试用期20K 9小时/天 月休4天）</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 联系区 */}
+          <section id="contact" className="bg-gray-200 py-16">
+            <div className="max-w-3xl mx-auto px-4 text-center">
+              <h3 className="text-3xl font-bold mb-6">联系我们</h3>
+              <p className="text-gray-600 mb-4">
+                填写信息或直接发送邮件至：
+                <a href="mailto:daxianxian888@gmail.com" 
+                  className="text-blue-600 hover:underline"
+                >
+                  daxianxian888@gmail.com
+                </a>
+              </p>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="space-y-4">
+                  <input
+                    type="text"
+                    placeholder="您的姓名"
+                    className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  />
+                  <input
+                    type="email"
+                    placeholder="您的邮箱"
+                    className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  />
+                  <textarea
+                    placeholder="您的消息"
+                    className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    rows="4"
+                  ></textarea>
+                  <button
+                    onClick={handleSubmit}
+                    className="bg-blue-600 text-white font-semibold py-2 px-6 rounded-full hover:bg-blue-700"
+                  >
+                    提交
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* 页脚 */}
+          <footer className="bg-gray-800 text-white py-6 text-center">
+            <p>© 2025 最终解释权海鸥综合部</p>
+            <p>
+              <a
+                href="mailto:daxianxian888@gmail.com"
+                className="text-white hover:underline"
+              >
+                联系邮箱：daxianxian888@gmail.com
+              </a>
+            </p>
+          </footer>
+        </div>
+      );
+    };
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
